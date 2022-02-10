@@ -19,5 +19,5 @@ provider "vcd" {
   url                  		= var.vcd_url
 
   max_retry_timeout    		= "45" // Retry time for api
-  allow_unverified_ssl 		= "false"
+  allow_unverified_ssl 		= "true"
 }
